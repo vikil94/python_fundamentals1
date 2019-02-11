@@ -31,12 +31,12 @@ else:
     print("Hello {}, nice to meet you".format(user_name))
 
 
-secert_number = 9;
+secret_number = 9;
 print("Enter a number")
 user_number1 = input()
-if int(user_number1) == secert_number:
+if int(user_number1) == secret_number:
     print("You win!")
-elif int(user_number1) - secert_number == 1 or -1:
+elif int(user_number1) - secret_number == 1 or -1:
     print("so close")
 else:
     print("Try again")
