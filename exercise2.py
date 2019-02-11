@@ -6,7 +6,7 @@ print(tip_amount)
 
 total = 55 + tip_amount
 
-print("This is the total for the bill ${}".format(total))
+print("This is the total for the bill with the tip amount added: ${}".format(total))
 
 # Try adding a string and an integer with the + operator. What happens? Find a way to convert the integer into a string first and use print to print the result.
 # by adding int() infront of the string it parses it to an int
